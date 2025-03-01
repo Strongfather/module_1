@@ -1,29 +1,47 @@
 'use strict';
 
-{
-const designation = 'Apple';
-const amount = 5;
-const category = 'fruits';
-const price = 100;
+// задание №1
+const resultDesignation = prompt('Наименование товара');
+const resultAmount = prompt('Колличество товара');
+const resultCategory = prompt('Категории товара');
+const resultPrice = prompt('Цена товара');
 
-let sum = amount * price
+console.log(typeof(resultDesignation));
+console.log(typeof(parseInt(resultAmount)));
+console.log(typeof(resultCategory));
+console.log(typeof(parseInt(resultPrice)));
+const sumResult = resultAmount * resultPrice
 
-console.log(designation);
-console.log(`общая сумма товара: ${amount * price}`);
-
-}
+console.log(`На складе ${resultAmount} товара ${resultDesignation} на сумму ${sumResult} рублей`);
 
 
 
-{
-    const designation = 'Orange';
-    const amount = 2;
-    const category = 'fruits';
-    const price = 150;
 
-    let sum = amount * price
 
-    console.log(designation);
-    console.log(`общая сумма товара: ${amount * price}`);
 
-}
+// {
+// const designation = 'Apple';
+// const amount = 5;
+// const category = 'fruits';
+// const price = 100;
+
+// let sum = amount * price
+
+// console.log(designation);
+// console.log(`общая сумма товара: ${amount * price}`);
+
+// }
+
+// {
+// const designation = 'Orange';
+// const amount = 2;
+// const category = 'fruits';
+// const price = 150;
+
+// let sum = amount * price
+
+// console.log(designation);
+// console.log(`общая сумма товара: ${amount * price}`);
+
+// }
+
