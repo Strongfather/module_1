@@ -15,10 +15,6 @@ const sumResult = resultAmount * resultPrice
 console.log(`На складе ${resultAmount} товара ${resultDesignation} на сумму ${sumResult} рублей`);
 
 
-
-
-
-
 // {
 // const designation = 'Apple';
 // const amount = 5;
