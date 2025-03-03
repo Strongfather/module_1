@@ -1,43 +1,29 @@
 'use strict';
 
-// задание №1
+// задание №1 Урок 4
+
 const resultDesignation = prompt('Наименование товара');
 const resultAmount = prompt('Колличество товара');
+if (!isNaN(resultAmount)) {
+    parseInt(resultAmount);
+} else {
+    alert('Вы ввели не корректное число');
+}
 const resultCategory = prompt('Категории товара');
 const resultPrice = prompt('Цена товара');
-
+if (!isNaN(resultPrice)) {
+    parseInt(resultAmount);
+} else {
+    alert('Вы ввели не корректное число');
+}
 console.log(typeof(resultDesignation));
 console.log(typeof(parseInt(resultAmount)));
 console.log(typeof(resultCategory));
-console.log(typeof(parseInt(resultPrice)));
+console.log(typeof(parseInt(resultAmount)));
+
 const sumResult = resultAmount * resultPrice
 
-console.log(`На складе ${resultAmount} товара ${resultDesignation} на сумму ${sumResult} рублей`);
+console.log(`На складе ${resultAmount} товара ${resultDesignation} на сумму ${sumResult} руб.`);
 
 
-// {
-// const designation = 'Apple';
-// const amount = 5;
-// const category = 'fruits';
-// const price = 100;
-
-// let sum = amount * price
-
-// console.log(designation);
-// console.log(`общая сумма товара: ${amount * price}`);
-
-// }
-
-// {
-// const designation = 'Orange';
-// const amount = 2;
-// const category = 'fruits';
-// const price = 150;
-
-// let sum = amount * price
-
-// console.log(designation);
-// console.log(`общая сумма товара: ${amount * price}`);
-
-// }
 
